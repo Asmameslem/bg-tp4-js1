@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background: #ffffff;
+}
+#table_container {
+    font-family: Calibri, Arial, sans-serif;
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th {
+    background: #007bbd;
+    color: white;
+    padding: 8px;
+    font-size: 12px;
+    border: 1px solid #5aa9d3;
+}
+td {
+    padding: 5px 8px;
+    font-size: 12px;
+    color: #222222;
+    border: 1px solid #dddddd;
+}
+.col_number {
+    text-align: center;
+    width: 65px;
+}
+.col_text {
+    text-align: left;
+}
+.col_chkbox {
+    text-align: center;
+    width: 65px;
+}
+th.col_text {
+    text-align: center;
+}
+#container_summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    background: #eeeeee;
+}
+#container_summary p {
+    margin: 8px 0;
+    font-size: 13px;
+}
+#form_container {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.form_group {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 0;
+}
+.form_label {
+    display: inline-block;
+    width: 70px;
+}
+.form_field {
+    padding: 5px;
+}
+#container_btn {
+    text-align: right;
+    padding: 14px 12px;
+}
+.btn-add,
+.btn-del,
+.btn-consol {
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 8px 10px;
+    cursor: pointer;
+    margin-left: 6px;
+}
+.btn-add {
+    background: #00b300;
+}
+.btn-consol {
+    background: #bf8f00;
+}
+.btn-del {
+    background: #ff0000;
+}

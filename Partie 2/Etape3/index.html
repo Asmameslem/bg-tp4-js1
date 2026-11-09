@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>CRUD-Persons</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="table_container">
+        <table id="table_persons">
+            <thead>
+                <tr>
+                    <th class="col_number">N°</th>
+                    <th class="col_text">Nom</th>
+                    <th class="col_text">Prénom</th>
+                    <th class="col_number">Points</th>
+                    <th class="col_chkbox">Select</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <button onclick="doInsert('nom', 'prenom', 10)">
+            Ajouter
+        </button>
+        <button onclick="consoleTableau()">
+            Console Tableau
+        </button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
